@@ -1,6 +1,6 @@
 # MagicLinkApp
 
-MagicLinkApp creates a magic link for a specific user and emails him the link. After clicking a link user becomes authenticated until he clicks logout. There is also a counter of how many times a user clicked the link, or pasted it into the browser.
+MagicLinkApp creates a magic link for a specific user and emails him the link. After clicking a link- user becomes authenticated until he clicks logout. There is also a counter of how many times a user clicked the link, or pasted it into the browser.
 
 # Technologies used:
 
