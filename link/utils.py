@@ -13,7 +13,7 @@ def get_random_string():
 def send_magic_link(request, to_email, token):
     send_mail(
         "Your magic link",
-        f"http://{request.get_host()}/home/token={token}",
-        "MagicLinkCreationApp@gmai.com",
+        f"https://{request.get_host()}/home/token={token}",
+        "MagicLinkCreationApp@gmail.com",
         [to_email],
     )
