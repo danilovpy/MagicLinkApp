@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Link Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+<div
+        class=" d-flex align-items-center justify-content-center"
+        style="height: 500px;"
+>
+    <div class="card text-center" >
+        <div class="card-header">
+            Magic Link
+        </div>
+        <div class="card-body">
+            <h6 class="card-title m-3">Hello, <strong>{{ email }}</strong></h6>
+            <p>Amount of times you clicked the link : <strong>{{ count }}</strong></p>
+            <a href="{% url 'logout_user' %}" class="btn btn-danger p mt-3 mb-3">Logout</a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
