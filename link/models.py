@@ -7,6 +7,6 @@ class User(AbstractUser):
     token = models.CharField(max_length=200, null=True, blank=True)
 
     def __str__(self):
-        return str(self.email)
+        return str(self.email) or str(self.username)
 
     objects = UserManager()
